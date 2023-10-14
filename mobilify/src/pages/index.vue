@@ -1,27 +1,33 @@
 <template>
-    <img alt="Vue logo" src="@/assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </template>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&display=swap" rel="stylesheet">
+  </head>
+  <h1>Mobilify</h1>
+  <button>Click me</button>
+
+
   
-  <script>
-  import HelloWorld from '@/components/HelloWorld.vue'
+</template>
+
   
-  export default {
-    name: 'App',
-    components: {
-      HelloWorld
-    }
-  }
-  </script>
+<script>
+export default {
+  name: 'App'
+}
+</script>
   
-  <style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
-  </style>
+<style>
+#app {
+  font-family: 'Cormorant SC'; font-size: 22px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #565656;
+  margin-top: 60px;
+  
+}
+body {
+  background-color:rgb(187, 216, 193);
+}
+</style>
   
