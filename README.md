@@ -175,5 +175,4 @@ Project Link: [https://github.com/tonypunnacherry/dubhacks-23](https://github.co
 [product-screenshot]: images/screenshot.png
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
-[Node.js] : https://www.google.com/url?sa=i&url=https%3A%2F%2Fseeklogo.com%2Fvector-logo%2F273749%2Fnode-js&psig=AOvVaw2rsjtwBtfYaLLXL2d9FBDs&ust=1697469793967000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJDYm_St-IEDFQAAAAAdAAAAABAE
-[Node-url]: https://nodejs.org/en/about 
+
