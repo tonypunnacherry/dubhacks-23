@@ -24,7 +24,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/tonypunnacherry/dubhacks-23">
-    <img src="https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png" alt="Mobilify Logo" width="480" height="auto">
+    <img src="https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png" alt="Mobilify Logo" width="400" height="auto">
   </a>
 
 <h3 align="center">Mobilify</h3>
