@@ -86,8 +86,6 @@ Mobilify: Move forward, together.
 
 
 * [![Vue][Vue.js]][Vue-url]
-* [![NodeJS][Node.js]][Node-url]
-* 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
