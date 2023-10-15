@@ -105,7 +105,7 @@ This is an example of how to list things you need to use the software and how to
 1. Get an API key from Google Maps: https://developers.google.com/maps/documentation/javascript/get-api-key
 2. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/tonypunnacherry/dubhacks-23.git
    ```
 3. Install NPM packages
    ```sh
