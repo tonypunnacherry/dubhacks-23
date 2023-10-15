@@ -23,7 +23,7 @@ const app = createApp(App)
 app.use(router)
 app.use(VueGoogleMaps, {
   load: {
-      key: 'AIzaSyAERVUL4W1RC4ZNSzewZT5Sg4pkk3YJM6Y'
+      key: ''
   },
 })
 
