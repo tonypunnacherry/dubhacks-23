@@ -24,13 +24,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/tonypunnacherry/dubhacks-23">
-    <img src="https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png" alt="Mobilify Logo" width="180" height="auto">
+    <img src="https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png" alt="Mobilify Logo" width="280" height="auto">
   </a>
 
 <h3 align="center">Mobilify</h3>
 
   <p align="center">
-    Mobilify: Move forward, together.
+    Move forward, together.
     <br />
     <br />
     <br />
