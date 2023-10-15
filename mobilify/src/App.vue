@@ -1,6 +1,9 @@
 <template>
   <NavBar />
   <router-view />
+  <div id="notification">
+    <i class="material-icons-round">notifications</i>
+  </div>
 </template>
 
 <script>
@@ -16,6 +19,36 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Merriweather:700');
+
+#notification {
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  border-radius: 50%;
+  background-color: #212121;
+  color: white;
+  bottom: 50px;
+  right: 50px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+#notification i {
+  text-align: center;
+  font-size: 48px;
+}
+
+#notification::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #f44436;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
 
 .page {
   padding: 25px 50px;
@@ -53,7 +86,7 @@ h4 {
   margin-bottom: 10px;
 }
 
-p {
+p, li {
   font-family: "Roboto", sans-serif;
 }
 
