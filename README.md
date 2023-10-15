@@ -32,9 +32,6 @@
   <p align="center">
     Move forward, together.
     <br />
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
   </p>
 </div>
 
