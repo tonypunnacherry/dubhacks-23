@@ -6,6 +6,7 @@ import Home from "@/pages/index.vue";
 import Explore from "@/pages/explore.vue";
 import Social from "@/pages/social.vue";
 //import Explore from "@/pages/explore.vue";
+import VueGoogleMaps from '@fawmi/vue-google-maps'
 
 const routes = [
   { path: '/', component: Home },
@@ -20,5 +21,10 @@ const router = createRouter({
 
 const app = createApp(App)
 app.use(router)
+app.use(VueGoogleMaps, {
+  load: {
+      key: 'AIzaSyAERVUL4W1RC4ZNSzewZT5Sg4pkk3YJM6Y'
+  },
+})
 
 app.mount('#app')

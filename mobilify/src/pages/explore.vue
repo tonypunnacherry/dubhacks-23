@@ -1,5 +1,13 @@
 <template>
     <div id="map">
+        <!--
+        <img src="@/assets/UW-Campus-Map.jpg" />
+        <i class="material-icons-round" id="marker1">location_on</i>
+        -->
+        <GMapMap :center="{ lat: 47.6564, lng: -122.3075 }" :zoom="17" map-type-id="roadmap"
+            style="width: 100vw; height: 900px">
+            <GMapMarker :key="index" v-for="(m, index) in markers" :position="m.position" />
+        </GMapMap>
         <div id="menu">
             <h1>Smith Hall</h1>
             <p style="border-left: 1px solid white; padding-left: 20px;"><input value="Your Location" /></p>
@@ -29,8 +37,6 @@
                 (<i class="material-icons-round" style="font-size: 14px;">favorite_border</i> 36)
             </p>
         </div>
-        <img src="@/assets/UW-Campus-Map.jpg" />
-        <i class="material-icons-round" id="marker1">location_on</i>
     </div>
 </template>
   
@@ -39,8 +45,16 @@
 export default {
     name: 'ExploreMap',
     data() {
-
-    }
+        return {
+            markers: [
+                {
+                    position: {
+                        lat: 47.6564, lng: -122.3075
+                    },
+                }
+            ]
+        }
+    },
 }
 </script>
     
@@ -54,6 +68,11 @@ export default {
     overflow: hidden;
     min-width: 100vh;
     min-height: 100vh;
+    z-index: 999;
+}
+
+.vue-map-container {
+    z-index: 0;
 }
 
 #menu {
