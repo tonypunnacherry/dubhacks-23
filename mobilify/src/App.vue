@@ -42,6 +42,17 @@ h2 {
   font-weight: 700;
 }
 
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: "Merriweather";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
 }
@@ -76,5 +87,9 @@ button:hover {
   width: 33%;
   padding: 0 20px;
   float: left;
+}
+
+.center {
+  text-align: center;
 }
 </style>

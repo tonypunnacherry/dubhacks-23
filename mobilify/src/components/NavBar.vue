@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <h1>Mobilify <i class="material-icons-round">pin_drop</i></h1>
+    <h1>Mobilif<img src="@/assets/logo.png" width="48" style="position: relative; top: 20px; left: -10px; margin-top: -20px;"/></h1>
     <ul>
       <li><router-link to="/" exactActiveClass="active"><i class="material-icons-outlined">home</i> Home</router-link></li>
       <li><router-link to="/explore" exactActiveClass="active"><i class="material-icons-outlined">map</i> Explore</router-link></li>
@@ -26,7 +26,7 @@ nav {
 nav h1 {
   margin: 0;
   float: left;
-  color: #212121;
+  color: black;
   font-family: "Roboto", sans-serif;
   line-height: 84px;
   margin-left: 40px;
