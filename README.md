@@ -146,11 +146,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Elizabeth Deng - [Linkedin](https://www.linkedin.com/in/lizdeng/) - elideng@uw.edu 
+Elizabeth Deng - [Linkedin](https://www.linkedin.com/in/lizdeng/) - elideng@uw.edu  
 
-Tia-Jane Fowler - [Linkedin](https://www.linkedin.com/in/tiajanefowler/) - tfowle@uw.edu 
+Tia-Jane Fowler - [Linkedin](https://www.linkedin.com/in/tiajanefowler/) - tfowle@uw.edu  
 
-Lina Kaifa - [Linkedin](https://www.linkedin.com/in/lina-kaifa-9497651b6/) - lkaifaa@uw.edu 
+Lina Kaifa - [Linkedin](https://www.linkedin.com/in/lina-kaifa-9497651b6/) - lkaifaa@uw.edu  
 
 Tony Punnacherry - [Linkedin](https://www.linkedin.com/in/tony-punnacherry/) - tpunn@uw.edu 
 
