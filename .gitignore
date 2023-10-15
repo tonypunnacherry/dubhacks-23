@@ -3,6 +3,7 @@
 
 # dependencies
 mobilify/node_modules
+server/node_modules
 
 
 # local env files
