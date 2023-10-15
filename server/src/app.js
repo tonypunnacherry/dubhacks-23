@@ -35,10 +35,9 @@ app.use(multer().none());
 
 const db = new sqlite3.Database('data.db');
 
-app.get("/hello", async(req, res) => {
-  res.send("hello there");
-})
-
+/** Gets the user that has the username included in the request. Returns the
+ * user info and all of their posts.
+ */
 app.get('/getuser', async (req, res) => {
   try {
     const user = req.query.user;
@@ -62,28 +61,43 @@ app.get('/getuser', async (req, res) => {
   }
 });
 
-
+/** Returns all post that contains the searched tag. */
 app.get('/searchtags', async (req, res) => {
   try {
-    let tags = req.query.tags;
-    console.log(tags);
-    let allTags = byCommas(tags);
-    console.log(allTags);
-
-    let query = "SELECT post_id FROM tags WHERE tag LIKE '%" + tags + "%'";
+    let tag = "#" + req.query.tag;
+    console.log(tag);
+    let qry = "SELECT * FROM forum WHERE tags LIKE + '%" + tag + "%'";
 
     let db = await getDBConnection();
-    let results = await db.all(query, [tags]);
+    let results = await db.all(qry);
 
     await db.close();
-    res.json({ user: results,
-              posts: posts
+    res.json({posts: results
     });
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
 });
 
+/** Returns all locations whose names match the search query. */
+app.get('/map/:search?', async (req, res) => {
+  try {
+    let query = "SELECT * FROM location_info l";
+    let search = "SELECT * FROM location_info l WHERE l.building_name LIKE '%" + req.query.search + "%'";
+    let db = await getDBConnection();
+    if (!req.query.search) {
+      let results = await db.all(query);
+      await db.close();
+      res.json({locations: results});
+    } else {
+      let results = await db.all(search);
+      await db.close();
+      res.json({locations: results});
+    }
+  } catch (err) {
+    sendErr(500);
+  }
+});
 function byCommas(inputString) {
   const parts = inputString.split(',');
   const resultArray = parts.map(part => part.trim()).filter(Boolean);
