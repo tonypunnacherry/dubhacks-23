@@ -5,13 +5,16 @@ import App from "@/App.vue";
 import Home from "@/pages/index.vue";
 import Explore from "@/pages/explore.vue";
 import Social from "@/pages/social.vue";
+import Group from "@/pages/group.vue";
 //import Explore from "@/pages/explore.vue";
 import VueGoogleMaps from '@fawmi/vue-google-maps'
+import secrets from "../secrets.json"
 
 const routes = [
   { path: '/', component: Home },
   { path: '/explore', component: Explore },
   { path: '/social', component: Social },
+  { path: '/social/group/:id', component: Group },
 ]
 
 const router = createRouter({
@@ -23,7 +26,7 @@ const app = createApp(App)
 app.use(router)
 app.use(VueGoogleMaps, {
   load: {
-      key: 'AIzaSyAERVUL4W1RC4ZNSzewZT5Sg4pkk3YJM6Y'
+      key: secrets.API_KEY
   },
 })
 

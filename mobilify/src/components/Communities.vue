@@ -4,7 +4,7 @@
             :style="{ backgroundImage: `url(${community.thumbnail})` }">
             <div class="overlay">
                 <h3>{{ community.title }}</h3>
-                <button class="visit">View Group</button>
+                <router-link to="/social/group/workout-UW"><button class="visit">View Group</button></router-link>
                 <p>
                     <i class="material-icons-round">group</i> {{ community.members }} members
                     &bull;

@@ -1,0 +1,405 @@
+{
+    "geocoded_waypoints" : 
+    [
+       {
+          "geocoder_status" : "OK",
+          "partial_match" : true,
+          "place_id" : "ChIJKzNHPI0UkFQRC1meHao5QIA",
+          "types" : 
+          [
+             "establishment",
+             "point_of_interest"
+          ]
+       },
+       {
+          "geocoder_status" : "OK",
+          "partial_match" : true,
+          "place_id" : "ChIJR4k7qZQUkFQRusu8FWxRSxg",
+          "types" : 
+          [
+             "establishment",
+             "point_of_interest",
+             "stadium"
+          ]
+       }
+    ],
+    "routes" : 
+    [
+       {
+          "bounds" : 
+          {
+             "northeast" : 
+             {
+                "lat" : 47.6561941,
+                "lng" : -122.3025397
+             },
+             "southwest" : 
+             {
+                "lat" : 47.6510888,
+                "lng" : -122.3076197
+             }
+          },
+          "copyrights" : "Map data ©2023 Google",
+          "legs" : 
+          [
+             {
+                "distance" : 
+                {
+                   "text" : "0.6 mi",
+                   "value" : 932
+                },
+                "duration" : 
+                {
+                   "text" : "13 mins",
+                   "value" : 752
+                },
+                "end_address" : "3800 Montlake Blvd NE, Seattle, WA 98105, USA",
+                "end_location" : 
+                {
+                   "lat" : 47.6510888,
+                   "lng" : -122.3037818
+                },
+                "start_address" : "1911 Skagit Ln, Seattle, WA 98105, USA",
+                "start_location" : 
+                {
+                   "lat" : 47.6561941,
+                   "lng" : -122.3071938
+                },
+                "steps" : 
+                [
+                   {
+                      "distance" : 
+                      {
+                         "text" : "128 ft",
+                         "value" : 39
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 31
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.656024,
+                         "lng" : -122.3076197
+                      },
+                      "html_instructions" : "Head \u003cb\u003esouthwest\u003c/b\u003e on \u003cb\u003eSkagit Ln\u003c/b\u003e toward \u003cb\u003eSpokane Ln\u003c/b\u003e",
+                      "polyline" : 
+                      {
+                         "points" : "ezzaH|boiV?BLFBDDPBJ@J@N@H"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6561941,
+                         "lng" : -122.3071938
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "246 ft",
+                         "value" : 75
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 53
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6558333,
+                         "lng" : -122.3066776
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e at \u003cb\u003eSpokane Ln\u003c/b\u003e",
+                      "maneuver" : "turn-left",
+                      "polyline" : 
+                      {
+                         "points" : "cyzaHreoiVDKBC@C@M?C@SDY?A?ABWB[@QD]"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.656024,
+                         "lng" : -122.3076197
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "259 ft",
+                         "value" : 79
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 55
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6551822,
+                         "lng" : -122.306338
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                      "maneuver" : "turn-right",
+                      "polyline" : 
+                      {
+                         "points" : "}wzaHv_oiVHKPBLAPCTOXQJIHI"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6558333,
+                         "lng" : -122.3066776
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "0.1 mi",
+                         "value" : 208
+                      },
+                      "duration" : 
+                      {
+                         "text" : "3 mins",
+                         "value" : 157
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6545055,
+                         "lng" : -122.3043275
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                      "maneuver" : "turn-left",
+                      "polyline" : 
+                      {
+                         "points" : "{szaHr}niV@_@?GBQ@GFQh@[VUBEDEDKT_@NMDC@C@A@A?A?A@C@I@??CDWCI?[AS?OAGAEESI_@"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6551822,
+                         "lng" : -122.306338
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "56 ft",
+                         "value" : 17
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 13
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6543619,
+                         "lng" : -122.3040725
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e onto \u003cb\u003eJefferson Rd NE\u003c/b\u003e",
+                      "maneuver" : "turn-right",
+                      "polyline" : 
+                      {
+                         "points" : "uozaH`qniVHIDIFODO"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6545055,
+                         "lng" : -122.3043275
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "0.1 mi",
+                         "value" : 163
+                      },
+                      "duration" : 
+                      {
+                         "text" : "2 mins",
+                         "value" : 123
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.65295330000001,
+                         "lng" : -122.3042183
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e to stay on \u003cb\u003eJefferson Rd NE\u003c/b\u003e",
+                      "maneuver" : "turn-right",
+                      "polyline" : 
+                      {
+                         "points" : "wnzaHloniVL@P@N@H?TFZ?RD^@`@@H@J?H@XGHBRD"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6543619,
+                         "lng" : -122.3040725
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "138 ft",
+                         "value" : 42
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 50
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6527772,
+                         "lng" : -122.3036297
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e toward \u003cb\u003eMason Rd\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                      "maneuver" : "turn-left",
+                      "polyline" : 
+                      {
+                         "points" : "}ezaHjpniV@W@EEADOFOL]FW"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.65295330000001,
+                         "lng" : -122.3042183
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "26 ft",
+                         "value" : 8
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 7
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6528412,
+                         "lng" : -122.3035893
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMason Rd\u003c/b\u003e",
+                      "maneuver" : "turn-left",
+                      "polyline" : 
+                      {
+                         "points" : "{dzaHtlniVKG"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6527772,
+                         "lng" : -122.3036297
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "0.1 mi",
+                         "value" : 219
+                      },
+                      "duration" : 
+                      {
+                         "text" : "3 mins",
+                         "value" : 196
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6516798,
+                         "lng" : -122.3033723
+                      },
+                      "html_instructions" : "Take the pedestrian overpass\u003cdiv style=\"font-size:0.9em\"\u003eTake the stairs\u003c/div\u003e",
+                      "polyline" : 
+                      {
+                         "points" : "gezaHllniV@E@OBM@O@OFc@@MBW@GDa@@G@I?GD@@@@@?@@@?@@B@D?D?D@H@F@D@B@B@BBDJDDBb@LXJ\\LBH@BBDFDTJJ@"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6528412,
+                         "lng" : -122.3035893
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "52 ft",
+                         "value" : 16
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 12
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6516435,
+                         "lng" : -122.3034739
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e at \u003cb\u003eSnohomish Ln S\u003c/b\u003e",
+                      "maneuver" : "turn-right",
+                      "polyline" : 
+                      {
+                         "points" : "_~yaH`kniVBHBH"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6516798,
+                         "lng" : -122.3033723
+                      },
+                      "travel_mode" : "WALKING"
+                   },
+                   {
+                      "distance" : 
+                      {
+                         "text" : "217 ft",
+                         "value" : 66
+                      },
+                      "duration" : 
+                      {
+                         "text" : "1 min",
+                         "value" : 55
+                      },
+                      "end_location" : 
+                      {
+                         "lat" : 47.6510888,
+                         "lng" : -122.3037818
+                      },
+                      "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eMontlake Blvd NE\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the right\u003c/div\u003e",
+                      "maneuver" : "turn-left",
+                      "polyline" : 
+                      {
+                         "points" : "w}yaHtkniVlB|@"
+                      },
+                      "start_location" : 
+                      {
+                         "lat" : 47.6516435,
+                         "lng" : -122.3034739
+                      },
+                      "travel_mode" : "WALKING"
+                   }
+                ],
+                "traffic_speed_entry" : [],
+                "via_waypoint" : []
+             }
+          ],
+          "overview_polyline" : 
+          {
+             "points" : "ezzaH|boiVLJHVDVBXHOBQFs@HgAD]HK^@PCTOd@[HI@_@BYHY`Aq@d@w@XWBIHe@EiASaANSL_@x@DTFZ?r@F`ADXGHBRD@W@EEAL_@Tu@KG@ED]B_@NqAH{@HFHj@FPNJh@Pv@XDLJJ`@LFRlB|@"
+          },
+          "summary" : "Jefferson Rd NE",
+          "warnings" : 
+          [
+             "Walking directions are in beta. Use caution – This route may be missing sidewalks or pedestrian paths."
+          ],
+          "waypoint_order" : []
+       }
+    ],
+    "status" : "OK"
+ }
