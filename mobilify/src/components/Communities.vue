@@ -112,7 +112,7 @@ const communities = ref([
     margin-top: -3px;
 }
 
-.community a {
+.community .more a {
     text-decoration: none;
     color: white;
     background-color: rgba(255,255,255,0.2);
