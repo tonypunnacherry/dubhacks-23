@@ -24,13 +24,13 @@
 <br />
 <div align="center">
   <a href="https://github.com/tonypunnacherry/dubhacks-23">
-    <img src="images/logo.png" alt="Mobilify Logo" width="80" height="80">
+    <img src="https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png" alt="Mobilify Logo" width="180" height="auto">
   </a>
 
 <h3 align="center">Mobilify</h3>
 
   <p align="center">
-    project_description
+    Mobilify: Move forward, together.
     <br />
     <br />
     <br />
@@ -178,7 +178,7 @@ Project Link: [https://github.com/tonypunnacherry/dubhacks-23](https://github.co
 [license-url]: https://github.com/tonypunnacherry/dubhacks-23/blob/main/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://github.com/tonypunnacherry/dubhacks-23/blob/2c43d37ae624e64d439e8a3c1a4b8f703acfc904/mobilify/public/mobilify%20logo%20new.png
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
 [Vue-url]: https://vuejs.org/
 
