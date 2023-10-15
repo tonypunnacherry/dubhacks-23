@@ -1,7 +1,6 @@
 <template>
   <nav>
-    <h1>Mobilif<img src="@/assets/logo.png" width="48" 
-      style="position: relative; top: 20px; left: -8px; margin-top: -20px; transform: rotate(12deg);"/></h1>
+    <h1><img src="@/assets/logo.png" height="72" style="position: relative; top: 3px;"/></h1>
     <ul>
       <li><router-link to="/" exactActiveClass="active"><i class="material-icons-outlined">home</i> Home</router-link></li>
       <li><router-link to="/explore" exactActiveClass="active"><i class="material-icons-outlined">map</i> Explore</router-link></li>
